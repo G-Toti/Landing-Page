@@ -64,7 +64,7 @@ header h1
 #home
 {
     justify-content: center;
-    height: 700px;
+    height: 650px;
 }
 
 #home a
@@ -294,7 +294,7 @@ footer
     background-color: var(--clr-secondary);
     gap: 0.5rem;
 
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 300;
     line-height: 2rem;
 }
@@ -302,6 +302,8 @@ footer
 footer img
 {
     height: 2rem;
+    padding-top: 0.5rem;
+    margin: 0;
 }
 
 .btn
