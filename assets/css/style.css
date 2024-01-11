@@ -12,9 +12,15 @@
     color: var(--clr-primary);
 }
 
+main
+{
+    width: 100%;
+    height: 100%;
+}
+
 header
 {
-    position: fixed;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +36,7 @@ header
 
 header nav
 {
-    display: flex;
+    display: none;
     align-items: center;
     gap: 1.5rem;
 }
@@ -62,29 +68,9 @@ header h1
 
 #home a
 {
-    display: flex;
-    align-items: center;
-    gap: 4.5px;
-
-
-    background-color: var(--clr-secondary);
-    width: fit-content;
-    border-radius: 6px;
-
-    text-decoration: none;
-    color: var(--clr-tertiary);
     padding: .5rem .6rem;
 
-    transition: transform 150ms;
-    order: 10;
-
     margin-inline: 1.5rem;
-}
-
-
-#home a:hover
-{
-    transform: scale(1.02);
 }
 
 .home-cta
@@ -152,3 +138,74 @@ header h1
     line-height: 150%;
 }
 
+#sobre
+{
+    color: var(--clr-tertiary);
+    background-color: var(--clr-primary);
+    display: flex;
+    flex-direction: column;
+
+    padding: 1.5rem 2rem;
+}
+
+#sobre h2
+{
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 250%;
+
+    text-transform: uppercase;
+}
+
+#sobre img
+{
+    border-radius: 4px;
+}
+
+.sobre-links
+{
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+    width: 100%;
+}
+
+.btn
+{
+    display: flex;
+    align-items: center;
+    color: var(--clr-tertiary);
+    background-color: var(--clr-secondary);
+
+    gap: 4.5px;
+
+    padding: 4px;
+    border-radius: 6px;
+
+    text-decoration: none;
+    line-height: 1.5rem;
+
+
+
+  
+    width: fit-content;
+
+    transition: transform 150ms;
+    order: 10;
+
+
+}
+
+
+#sobre .btn
+{
+    margin-bottom: 50px;
+}
+
+.btn:hover
+{
+    transform: scale(1.02);
+}
