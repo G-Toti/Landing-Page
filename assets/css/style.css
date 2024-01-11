@@ -6,8 +6,149 @@
     --clr-secondary: #E02D2D;
     --clr-tertiary: #EEF2F5;
 
-    font-family: Popins, Helvetica, sans-serif;
+    font-family: "Poppins", Helvetica, sans-serif;
     font-size: 14px;
     line-height: 18px;
     color: var(--clr-primary);
 }
+
+header
+{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    background-color: var(--clr-primary);
+    color: var(--clr-tertiary);
+
+    padding: 1rem 1.5rem;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header nav
+{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+header nav a
+{
+    color: var(--clr-tertiary);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none; 
+}
+
+header h1
+{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+#home
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 700px;
+
+
+}
+
+#home a
+{
+    display: flex;
+    align-items: center;
+    gap: 4.5px;
+
+
+    background-color: var(--clr-secondary);
+    width: fit-content;
+    border-radius: 6px;
+
+    text-decoration: none;
+    color: var(--clr-tertiary);
+    padding: .5rem .6rem;
+
+    transition: transform 150ms;
+    order: 10;
+
+    margin-inline: 1.5rem;
+}
+
+
+#home a:hover
+{
+    transform: scale(1.02);
+}
+
+.home-cta
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    height: 400px;
+
+    justify-content: center;
+
+    position: relative;
+}
+
+.home-heading
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 1.5rem;
+    margin-top: 6.8rem;
+}
+
+.ellipse
+{
+    position: absolute;
+    left: -7rem;
+    background-color: var(--clr-secondary);
+    width: 26rem;
+    height: 26rem;
+    border-radius: 50%;
+}
+
+#blury-ellipse
+{
+    filter: blur(10px);
+    width: 28rem;
+    height: 28rem;
+}
+
+.home-background img
+{
+    position: absolute;
+}
+
+.home-background
+{
+    position: relative;
+    opacity: 15%;
+
+    z-index: -1;
+}
+
+.home-heading > h1
+{
+    margin: 0;
+    font-size: 24px;
+    line-height: 250%;
+    font-weight: 500;
+}
+
+.home-heading > p
+{
+    margin: 0;
+    line-height: 150%;
+}
+
