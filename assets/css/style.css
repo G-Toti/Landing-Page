@@ -313,7 +313,11 @@ header h1
         padding: 4rem 10rem;
     }
 
-    
+    #sobreLeft
+    {
+        margin-top: 1.1rem;
+    }
+
 
     #sobreRight, #sobreLeft
     {
