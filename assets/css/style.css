@@ -239,6 +239,15 @@ img
     
 }
 
+.conhecimentos-list > li
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+}
+
 #contatos
 {
     display: flex;
@@ -252,6 +261,13 @@ img
 {
     margin: 0;
     padding: 0;
+}
+
+#contatos > ul > li 
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
 }
 
 #contatos ul
@@ -330,6 +346,11 @@ footer img
     order: 10;
 
 
+}
+
+.btn .fa-github
+{
+    color: var(--clr-primary);
 }
 
 
