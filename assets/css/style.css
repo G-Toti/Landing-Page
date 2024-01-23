@@ -7,10 +7,117 @@
     --clr-secondary: #E02D2D;
     --clr-tertiary: #EEF2F5;
 
+    --clr-secondary-light: #fcb5b5;
+
     font-family: "Poppins", Helvetica, sans-serif;
     font-size: 14px;
     line-height: 18px;
     color: var(--clr-primary);
+}
+
+@keyframes slide-right {
+    from
+    {
+        transform: translateX(-100%);
+    }
+    to
+    {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide-left {
+    from
+    {
+        transform: translateX(100%);
+    }
+    to
+    {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide-top {
+    from
+    {
+        transform: translateY(100%);
+    }
+    to
+    {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slide-bottom {
+    from
+    {
+        transform: translateY(-100%);
+    }
+    to
+    {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes fade-in {
+    from
+    {
+        opacity: 0%;
+    }
+    to
+    {
+        opacity: 100%;
+    }
+}
+
+@keyframes scale-up {
+    from
+    {
+        scale: 0%;
+    }
+    to
+    {
+        scale: 100%;
+    }
+}
+
+@keyframes scroll-lenght {
+    from
+    {
+        width: 0%;
+    }
+    to
+    {
+        width: 101%;
+    }
+}
+
+#scrollWrapper
+{
+    box-shadow: 0 0 7px 7px var(--clr-secondary);
+
+    animation: scroll-lenght;
+    animation-timeline: scroll();
+
+    position: fixed;
+    left: -1%;
+    right: 0;
+    top: 0;
+    z-index: 3;
+
+    height: 10px;
+}
+
+
+#scrollBar
+{
+    width: 100%;
+    height: 100%;
+
+    background: white;
+    box-shadow: 0 0 2px 2px var(--clr-secondary-light);
+
+    border-radius: 10px;
 }
 
 .section-wrapper
@@ -138,71 +245,6 @@ header h1
     font-weight: 500;
 }
 
-@keyframes slide-right {
-    from
-    {
-        transform: translateX(-100%);
-    }
-    to
-    {
-        transform: translateX(0%);
-    }
-}
-
-@keyframes slide-left {
-    from
-    {
-        transform: translateX(100%);
-    }
-    to
-    {
-        transform: translateX(0%);
-    }
-}
-
-@keyframes slide-top {
-    from
-    {
-        transform: translateY(100%);
-    }
-    to
-    {
-        transform: translateY(0%);
-    }
-}
-
-@keyframes slide-bottom {
-    from
-    {
-        transform: translateY(-100%);
-    }
-    to
-    {
-        transform: translateY(0%);
-    }
-}
-
-@keyframes fade-in {
-    from
-    {
-        opacity: 0%;
-    }
-    to
-    {
-        opacity: 100%;
-    }
-}
-
-@keyframes scale-up {
-    from
-    {
-        scale: 0%;
-    }
-    to
-    {
-        scale: 100%;
-    }
-}
 
 #home
 {
@@ -633,7 +675,7 @@ header h1
 
     animation: 1s ease-in-out 0s 1 slide-right;
     animation-timeline: view();
-    animation-range: cover 0% cover 25%;
+    animation-range: cover 0% cover 10%;
 }
 
 #contatos ul
@@ -699,4 +741,3 @@ footer img
     padding-top: 0.5rem;
     margin: 0;
 }
-
