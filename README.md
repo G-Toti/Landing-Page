@@ -41,15 +41,15 @@ Este repositório contém um site de portifólio feito durante o curso de web b�
 
 </section>
 
-<section style="display: flex; flex-direction: column; align-items: center;" id="aplicacao">
+<section id="aplicacao">
 
-<h2 style="align-self: flex-start; width: 100%;">👀 Demonstração do Projeto</h2>
+<h2>👀 Demonstração do Projeto</h2>
 
-<h3 style="align-self: flex-start;">🖥 Desktop</h3>
+<h3>🖥 Desktop</h3>
 
 <img src="./assets/img/Readme/2024-01-26 11-56-43.gif">
 
-<h3 style="align-self: flex-start;">📱 Mobile</h3>
+<h3>📱 Mobile</h3>
 
 <img src="./assets/img/Readme/2024-01-26 11-55-43.gif">
 
@@ -94,7 +94,9 @@ Caso haja interesse na edição do arquivo, com a intenção de melhorar sua exp
 <section id="contribucao">
 <h2>🤝 Contribuição</h2>
 
-![Logo da empresa junior byron.solutions](./assets/img/Readme/logo-byron-readme.png)
+<a href="https://www.byronsolutions.com" target="_blank">
+<img src="assets/img/Readme/logo-byron-readme.png">
+</a>
 
 </section>
 
@@ -102,12 +104,17 @@ Caso haja interesse na edição do arquivo, com a intenção de melhorar sua exp
 
 <h2>👨‍🎨 Autor</h2>
 
-<div style="border-style: solid; border-width: 1px; width: fit-content; height: fit-content; padding: 10px;">
-
-<img src="./assets/img/Readme/toti.enc">
-
-<h2 align=center style="margin: 0; padding: 0;"> <a href="https://github.com/G-Toti" target="_blank">Gabriel Toti</a></h2>
-
-</div>
+<table>
+  <tbody>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/G-Toti">
+          <img src="./assets/img/Readme/toti.enc"/>
+          <h3>Gabriel Toti</h3>
+        </a>
+      </td> 
+    </tr>
+  </tbody>
+</table>
 
 </section>
