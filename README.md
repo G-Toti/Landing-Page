@@ -14,7 +14,12 @@ Este repositório contém um site de portifólio feito durante o curso de web b�
 - <h3><a href="#status">Status</a><h3>
 - <h3><a href="#features">Features</a><h3>
 - <h3><a href="#aplicacao">Aplicação</a><h3>
-</section>
+
+- <h3><a href="#instalacao">Instalação</a><h3>
+- <h3><a href="#tecnologias">Tecnologias</a><h3>
+- <h3><a href="#contribucao">Contribuição</a><h3>
+- <h3><a href="#autor">Autor</a><h3>
+  </section>
 
 <section id="status">
 
@@ -48,7 +53,9 @@ Este repositório contém um site de portifólio feito durante o curso de web b�
 
 <img src="./assets/img/Readme/2024-01-26 11-55-43.gif">
 
-</section id="instalacao">
+</section>
+
+<section id="instalacao">
 
 <h2>⬇ Download e Instalação</h2>
 
