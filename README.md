@@ -74,7 +74,7 @@ Em seguida, será necessário abrir o terminal do code com o atalho Ctrl+J. Nele
 ```
 git init
 
-git clone https://github.com/G-Toti/Landing-Page.git
+git clone https://github.com/G-Toti/Portifolio-byron.git
 ```
 
 Dessa forma, o projeto estará disponível em seu ambiente para a edição e uso, basta executar o arquivo `index.html` para utilizá-lo.
